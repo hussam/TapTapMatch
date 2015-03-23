@@ -72,17 +72,18 @@
                 <controller id="7" customClass="WatchResultsController" identifier="WatchResultsController">
                     <items>
                         <label alignment="left" text="Game Over" id="33" width="137" height="20" textAlignment="center"/>
-                        <label alignment="left" text="10 - 42" id="35" width="133" height="32" textAlignment="center" verticalAlignment="center"/>
-                        <button width="1" alignment="left" title="OK" id="61" verticalAlignment="bottom">
-                            <connections>
-                                <action selector="dismissButton_Activated:" destination="7" id="62"/>
-                            </connections>
-                        </button>
+                        <label alignment="left" text="10 - 42" id="35" width="133" height="32" textAlignment="center"/>
+                        <group width="1" alignment="left" id="67" widthAdjustment="1" contentMode="scaleAspectFit" height="75">
+                            <items>
+                                <group width="1" alignment="left" id="68" widthAdjustment="1" contentMode="scaleAspectFit" height="75"/>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="resultsLabel" destination="35" id="name-outlet-35"/>
                         <outlet property="winnerLabel" destination="33" id="name-outlet-33"/>
-                        <outlet property="dismissButton" destination="61" id="name-outlet-61"/>
+                        <outlet property="outerGroup" destination="67" id="name-outlet-67"/>
+                        <outlet property="innerGroup" destination="68" id="name-outlet-68"/>
                     </connections>
                 </controller>
             </objects>
@@ -131,5 +132,207 @@
     </scenes>
     <resources>
         <image name="arcs8-7.png" width="300" height="300"/>
+        <image name="outerArc/outer0.png" width="300" height="300"/>
+        <image name="outerArc/outer1.png" width="300" height="300"/>
+        <image name="outerArc/outer10.png" width="300" height="300"/>
+        <image name="outerArc/outer100.png" width="300" height="300"/>
+        <image name="outerArc/outer11.png" width="300" height="300"/>
+        <image name="outerArc/outer12.png" width="300" height="300"/>
+        <image name="outerArc/outer13.png" width="300" height="300"/>
+        <image name="outerArc/outer14.png" width="300" height="300"/>
+        <image name="outerArc/outer15.png" width="300" height="300"/>
+        <image name="outerArc/outer16.png" width="300" height="300"/>
+        <image name="outerArc/outer17.png" width="300" height="300"/>
+        <image name="outerArc/outer18.png" width="300" height="300"/>
+        <image name="outerArc/outer19.png" width="300" height="300"/>
+        <image name="outerArc/outer2.png" width="300" height="300"/>
+        <image name="outerArc/outer20.png" width="300" height="300"/>
+        <image name="outerArc/outer21.png" width="300" height="300"/>
+        <image name="outerArc/outer22.png" width="300" height="300"/>
+        <image name="outerArc/outer23.png" width="300" height="300"/>
+        <image name="outerArc/outer24.png" width="300" height="300"/>
+        <image name="outerArc/outer25.png" width="300" height="300"/>
+        <image name="outerArc/outer26.png" width="300" height="300"/>
+        <image name="outerArc/outer27.png" width="300" height="300"/>
+        <image name="outerArc/outer28.png" width="300" height="300"/>
+        <image name="outerArc/outer29.png" width="300" height="300"/>
+        <image name="outerArc/outer3.png" width="300" height="300"/>
+        <image name="outerArc/outer30.png" width="300" height="300"/>
+        <image name="outerArc/outer31.png" width="300" height="300"/>
+        <image name="outerArc/outer32.png" width="300" height="300"/>
+        <image name="outerArc/outer33.png" width="300" height="300"/>
+        <image name="outerArc/outer34.png" width="300" height="300"/>
+        <image name="outerArc/outer35.png" width="300" height="300"/>
+        <image name="outerArc/outer36.png" width="300" height="300"/>
+        <image name="outerArc/outer37.png" width="300" height="300"/>
+        <image name="outerArc/outer38.png" width="300" height="300"/>
+        <image name="outerArc/outer39.png" width="300" height="300"/>
+        <image name="outerArc/outer4.png" width="300" height="300"/>
+        <image name="outerArc/outer40.png" width="300" height="300"/>
+        <image name="outerArc/outer41.png" width="300" height="300"/>
+        <image name="outerArc/outer42.png" width="300" height="300"/>
+        <image name="outerArc/outer43.png" width="300" height="300"/>
+        <image name="outerArc/outer44.png" width="300" height="300"/>
+        <image name="outerArc/outer45.png" width="300" height="300"/>
+        <image name="outerArc/outer46.png" width="300" height="300"/>
+        <image name="outerArc/outer47.png" width="300" height="300"/>
+        <image name="outerArc/outer48.png" width="300" height="300"/>
+        <image name="outerArc/outer49.png" width="300" height="300"/>
+        <image name="outerArc/outer5.png" width="300" height="300"/>
+        <image name="outerArc/outer50.png" width="300" height="300"/>
+        <image name="outerArc/outer51.png" width="300" height="300"/>
+        <image name="outerArc/outer52.png" width="300" height="300"/>
+        <image name="outerArc/outer53.png" width="300" height="300"/>
+        <image name="outerArc/outer54.png" width="300" height="300"/>
+        <image name="outerArc/outer55.png" width="300" height="300"/>
+        <image name="outerArc/outer56.png" width="300" height="300"/>
+        <image name="outerArc/outer57.png" width="300" height="300"/>
+        <image name="outerArc/outer58.png" width="300" height="300"/>
+        <image name="outerArc/outer59.png" width="300" height="300"/>
+        <image name="outerArc/outer6.png" width="300" height="300"/>
+        <image name="outerArc/outer60.png" width="300" height="300"/>
+        <image name="outerArc/outer61.png" width="300" height="300"/>
+        <image name="outerArc/outer62.png" width="300" height="300"/>
+        <image name="outerArc/outer63.png" width="300" height="300"/>
+        <image name="outerArc/outer64.png" width="300" height="300"/>
+        <image name="outerArc/outer65.png" width="300" height="300"/>
+        <image name="outerArc/outer66.png" width="300" height="300"/>
+        <image name="outerArc/outer67.png" width="300" height="300"/>
+        <image name="outerArc/outer68.png" width="300" height="300"/>
+        <image name="outerArc/outer69.png" width="300" height="300"/>
+        <image name="outerArc/outer7.png" width="300" height="300"/>
+        <image name="outerArc/outer70.png" width="300" height="300"/>
+        <image name="outerArc/outer71.png" width="300" height="300"/>
+        <image name="outerArc/outer72.png" width="300" height="300"/>
+        <image name="outerArc/outer73.png" width="300" height="300"/>
+        <image name="outerArc/outer74.png" width="300" height="300"/>
+        <image name="outerArc/outer75.png" width="300" height="300"/>
+        <image name="outerArc/outer76.png" width="300" height="300"/>
+        <image name="outerArc/outer77.png" width="300" height="300"/>
+        <image name="outerArc/outer78.png" width="300" height="300"/>
+        <image name="outerArc/outer79.png" width="300" height="300"/>
+        <image name="outerArc/outer8.png" width="300" height="300"/>
+        <image name="outerArc/outer80.png" width="300" height="300"/>
+        <image name="outerArc/outer81.png" width="300" height="300"/>
+        <image name="outerArc/outer82.png" width="300" height="300"/>
+        <image name="outerArc/outer83.png" width="300" height="300"/>
+        <image name="outerArc/outer84.png" width="300" height="300"/>
+        <image name="outerArc/outer85.png" width="300" height="300"/>
+        <image name="outerArc/outer86.png" width="300" height="300"/>
+        <image name="outerArc/outer87.png" width="300" height="300"/>
+        <image name="outerArc/outer88.png" width="300" height="300"/>
+        <image name="outerArc/outer89.png" width="300" height="300"/>
+        <image name="outerArc/outer9.png" width="300" height="300"/>
+        <image name="outerArc/outer90.png" width="300" height="300"/>
+        <image name="outerArc/outer91.png" width="300" height="300"/>
+        <image name="outerArc/outer92.png" width="300" height="300"/>
+        <image name="outerArc/outer93.png" width="300" height="300"/>
+        <image name="outerArc/outer94.png" width="300" height="300"/>
+        <image name="outerArc/outer95.png" width="300" height="300"/>
+        <image name="outerArc/outer96.png" width="300" height="300"/>
+        <image name="outerArc/outer97.png" width="300" height="300"/>
+        <image name="outerArc/outer98.png" width="300" height="300"/>
+        <image name="outerArc/outer99.png" width="300" height="300"/>
+        <image name="innerArc/inner0.png" width="300" height="300"/>
+        <image name="innerArc/inner1.png" width="300" height="300"/>
+        <image name="innerArc/inner10.png" width="300" height="300"/>
+        <image name="innerArc/inner100.png" width="300" height="300"/>
+        <image name="innerArc/inner11.png" width="300" height="300"/>
+        <image name="innerArc/inner12.png" width="300" height="300"/>
+        <image name="innerArc/inner13.png" width="300" height="300"/>
+        <image name="innerArc/inner14.png" width="300" height="300"/>
+        <image name="innerArc/inner15.png" width="300" height="300"/>
+        <image name="innerArc/inner16.png" width="300" height="300"/>
+        <image name="innerArc/inner17.png" width="300" height="300"/>
+        <image name="innerArc/inner18.png" width="300" height="300"/>
+        <image name="innerArc/inner19.png" width="300" height="300"/>
+        <image name="innerArc/inner2.png" width="300" height="300"/>
+        <image name="innerArc/inner20.png" width="300" height="300"/>
+        <image name="innerArc/inner21.png" width="300" height="300"/>
+        <image name="innerArc/inner22.png" width="300" height="300"/>
+        <image name="innerArc/inner23.png" width="300" height="300"/>
+        <image name="innerArc/inner24.png" width="300" height="300"/>
+        <image name="innerArc/inner25.png" width="300" height="300"/>
+        <image name="innerArc/inner26.png" width="300" height="300"/>
+        <image name="innerArc/inner27.png" width="300" height="300"/>
+        <image name="innerArc/inner28.png" width="300" height="300"/>
+        <image name="innerArc/inner29.png" width="300" height="300"/>
+        <image name="innerArc/inner3.png" width="300" height="300"/>
+        <image name="innerArc/inner30.png" width="300" height="300"/>
+        <image name="innerArc/inner31.png" width="300" height="300"/>
+        <image name="innerArc/inner32.png" width="300" height="300"/>
+        <image name="innerArc/inner33.png" width="300" height="300"/>
+        <image name="innerArc/inner34.png" width="300" height="300"/>
+        <image name="innerArc/inner35.png" width="300" height="300"/>
+        <image name="innerArc/inner36.png" width="300" height="300"/>
+        <image name="innerArc/inner37.png" width="300" height="300"/>
+        <image name="innerArc/inner38.png" width="300" height="300"/>
+        <image name="innerArc/inner39.png" width="300" height="300"/>
+        <image name="innerArc/inner4.png" width="300" height="300"/>
+        <image name="innerArc/inner40.png" width="300" height="300"/>
+        <image name="innerArc/inner41.png" width="300" height="300"/>
+        <image name="innerArc/inner42.png" width="300" height="300"/>
+        <image name="innerArc/inner43.png" width="300" height="300"/>
+        <image name="innerArc/inner44.png" width="300" height="300"/>
+        <image name="innerArc/inner45.png" width="300" height="300"/>
+        <image name="innerArc/inner46.png" width="300" height="300"/>
+        <image name="innerArc/inner47.png" width="300" height="300"/>
+        <image name="innerArc/inner48.png" width="300" height="300"/>
+        <image name="innerArc/inner49.png" width="300" height="300"/>
+        <image name="innerArc/inner5.png" width="300" height="300"/>
+        <image name="innerArc/inner50.png" width="300" height="300"/>
+        <image name="innerArc/inner51.png" width="300" height="300"/>
+        <image name="innerArc/inner52.png" width="300" height="300"/>
+        <image name="innerArc/inner53.png" width="300" height="300"/>
+        <image name="innerArc/inner54.png" width="300" height="300"/>
+        <image name="innerArc/inner55.png" width="300" height="300"/>
+        <image name="innerArc/inner56.png" width="300" height="300"/>
+        <image name="innerArc/inner57.png" width="300" height="300"/>
+        <image name="innerArc/inner58.png" width="300" height="300"/>
+        <image name="innerArc/inner59.png" width="300" height="300"/>
+        <image name="innerArc/inner6.png" width="300" height="300"/>
+        <image name="innerArc/inner60.png" width="300" height="300"/>
+        <image name="innerArc/inner61.png" width="300" height="300"/>
+        <image name="innerArc/inner62.png" width="300" height="300"/>
+        <image name="innerArc/inner63.png" width="300" height="300"/>
+        <image name="innerArc/inner64.png" width="300" height="300"/>
+        <image name="innerArc/inner65.png" width="300" height="300"/>
+        <image name="innerArc/inner66.png" width="300" height="300"/>
+        <image name="innerArc/inner67.png" width="300" height="300"/>
+        <image name="innerArc/inner68.png" width="300" height="300"/>
+        <image name="innerArc/inner69.png" width="300" height="300"/>
+        <image name="innerArc/inner7.png" width="300" height="300"/>
+        <image name="innerArc/inner70.png" width="300" height="300"/>
+        <image name="innerArc/inner71.png" width="300" height="300"/>
+        <image name="innerArc/inner72.png" width="300" height="300"/>
+        <image name="innerArc/inner73.png" width="300" height="300"/>
+        <image name="innerArc/inner74.png" width="300" height="300"/>
+        <image name="innerArc/inner75.png" width="300" height="300"/>
+        <image name="innerArc/inner76.png" width="300" height="300"/>
+        <image name="innerArc/inner77.png" width="300" height="300"/>
+        <image name="innerArc/inner78.png" width="300" height="300"/>
+        <image name="innerArc/inner79.png" width="300" height="300"/>
+        <image name="innerArc/inner8.png" width="300" height="300"/>
+        <image name="innerArc/inner80.png" width="300" height="300"/>
+        <image name="innerArc/inner81.png" width="300" height="300"/>
+        <image name="innerArc/inner82.png" width="300" height="300"/>
+        <image name="innerArc/inner83.png" width="300" height="300"/>
+        <image name="innerArc/inner84.png" width="300" height="300"/>
+        <image name="innerArc/inner85.png" width="300" height="300"/>
+        <image name="innerArc/inner86.png" width="300" height="300"/>
+        <image name="innerArc/inner87.png" width="300" height="300"/>
+        <image name="innerArc/inner88.png" width="300" height="300"/>
+        <image name="innerArc/inner89.png" width="300" height="300"/>
+        <image name="innerArc/inner9.png" width="300" height="300"/>
+        <image name="innerArc/inner90.png" width="300" height="300"/>
+        <image name="innerArc/inner91.png" width="300" height="300"/>
+        <image name="innerArc/inner92.png" width="300" height="300"/>
+        <image name="innerArc/inner93.png" width="300" height="300"/>
+        <image name="innerArc/inner94.png" width="300" height="300"/>
+        <image name="innerArc/inner95.png" width="300" height="300"/>
+        <image name="innerArc/inner96.png" width="300" height="300"/>
+        <image name="innerArc/inner97.png" width="300" height="300"/>
+        <image name="innerArc/inner98.png" width="300" height="300"/>
+        <image name="innerArc/inner99.png" width="300" height="300"/>
     </resources>
 </document>

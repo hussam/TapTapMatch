@@ -16,7 +16,11 @@ namespace WatchExtension
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		WatchKit.WKInterfaceButton dismissButton { get; set; }
+		WatchKit.WKInterfaceGroup innerGroup { get; set; }
+
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		WatchKit.WKInterfaceGroup outerGroup { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -26,15 +30,15 @@ namespace WatchExtension
 		[GeneratedCode ("iOS Designer", "1.0")]
 		WatchKit.WKInterfaceLabel winnerLabel { get; set; }
 
-		[Action ("dismissButton_Activated:")]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void dismissButton_Activated (WatchKit.WKInterfaceButton sender);
-
 		void ReleaseDesignerOutlets ()
 		{
-			if (dismissButton != null) {
-				dismissButton.Dispose ();
-				dismissButton = null;
+			if (innerGroup != null) {
+				innerGroup.Dispose ();
+				innerGroup = null;
+			}
+			if (outerGroup != null) {
+				outerGroup.Dispose ();
+				outerGroup = null;
 			}
 			if (resultsLabel != null) {
 				resultsLabel.Dispose ();
